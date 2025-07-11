@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/color1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <title>Personal Website</title>
+</head>
+
+<body>
+    <!--Navbar-->
+    <nav id="desktop-nav">
+        <a href="#"><span><img src="./images/vecteezy_the-eagle-head-logo-and-wings-and-vf-letters_15733781.png"
+                    alt="logo"></span></a>
+        <ul class="nav-links">
+            <li> <a href="#about">About </a></li>
+            <li><a href="#experience"> Experience </a></li>
+            <li> <a href="#projects">Projects </a></li>
+            <li> <a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">MEHEDI</div>
+        <div class="hamburger-menu">
+            <div class="hambuger-icon" onclick="toogleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li> <a href="#about" onclick="toogleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toogleMenu()">Experience</a></li>
+                <li> <a href="#projects" onclick="toogleMenu()">Projects </a></li>
+                <li> <a href="#contact" onclick="toogleMenu()">Contact </a></li>
+            </div>
+        </div>
+    </nav>
+    <!--Profile Section-->
+    <section id="profile">
+        <div class="section_pic-container">
+            <img src="./images/another pic.jpg" alt="mehedi">
+        </div>
+        <div class="section-text">
+            <p class="section-text-p1">Hello I'm</p>
+            <h1 class="title">Md Mehedi Hasan</h1>
+            <p class="section-text-p2">Software Developer</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./images/MD_Mehedi_Hasan_CV.pdf')">
+                    Download CV
+                </button>
+                <button class="btn btn-color-1" onclick="location.href('./#contact')">
+                    Contact Info
+                </button>
+            </div>
+            <div id="social-container">
+                <img src="./images/free-linkedin-icon-2166-thumb.png" alt="My LinkedIn Page" class="icon"
+                    onclick="location.href='https://www.linkedin.com/in/md-mehedi-hasan-m-370161349/'" />
+
+                <img src="./images/Github-Logo-PNG-Isolated-HD.png" alt="My Github Page" class="icon"
+                    onclick="location.href='https://github.com/MdMehediHasan22'" />
+            </div>
+        </div>
+    </section>
+    <!--About Section-->
+    <section id="about">
+        <p class="section-text-p1">Get to know more</p>
+        <h1 class="title">About Me </h1>
+        <div class="section-container">
+
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <!-- <div class="details-container">
+                        <img src="./images/contest-icon-png-4.png" alt="experience-icon" class="icon" />
+                        <h3>Experience</h3>
+                        <p>2+ Years <br>Software Development</p>
+                        <p>Specialised on JAVA,MySQL,OOP</p>
+                    </div> -->
+                    <div class="details-container">
+                        <img src="./images/397-3976471_education-icon-png-transparent-png.png" alt="education-icon"
+                            class="icon" />
+                        <h3>Education</h3>
+                        <p> Bachelor of Science In CSE <br> Rajshahi University Of Engineering & Technology</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p> Welcome to my portfolio! Computer Science graduate from RUET with strong skills in OOP, DSA, 
+                        and SQL. Solved 250+ competitive programming problems across UVa, HackerRank, and LeetCode. 
+                        Quick learner with experience in JavaScript, React, Express.js, and the MERN stack. Passionate 
+                        about problem-solving and building efficient, scalable web applications.
+
+                        I enjoy solving complex problems and turning innovative ideas into functional software
+                        solutions. My projects reflect my dedication to writing clean, maintainable code while
+                        continually learning and adapting to new technologies. As I begin my professional journey, I am
+                        excited to contribute to dynamic teams and make an impact in the tech industry.
+
+                        Thank you for visiting My Portfolio!
+
+                    </p>
+                </div>
+            </div>
+        </div>
+        <img src="./images/png-transparent-arrow-double-right-arrows-icon.png" alt="arrow-icon" class="icon"
+            id="arrow-icon" onclick="location.href='#experience' " />
+    </section>
+    <!--Experience Section-->
+    <section id="experience">
+        <p class="section-text-p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Software Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./images/5290982.png" alt="checkmark" class="icon" />
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Experienced </p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./images/5290982.png" alt="checkmark" class="icon" />
+                            <div>
+                                <h3>CSS</h3>
+                                <p>Experienced </p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./images/5290982.png" alt="checkmark" class="icon" />
+                            <div>
+                                <h3>SASS</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./images/5290982.png" alt="checkmark" class="icon" />
+                            <div>
+                                <h3>JavaScript</h3>
+                                <p>Experienced </p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./images/5290982.png" alt="checkmark" class="icon" />
+                            <div>
+                                <h3>TypeScript</h3>
+                                <p>Experienced </p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./images/5290982.png" alt="checkmark" class="icon" />
+                            <div>
+                                <h3>Material UI</h3>
+                                <p>Experienced </p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Software Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./images/5290982.png" alt="checkmark" class="icon" />
+                            <div>
+                                <h3>React</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./images/5290982.png" alt="checkmark" class="icon" />
+                            <div>
+                                <h3>NodeJS</h3>
+                                <p>Intermediate </p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./images/5290982.png" alt="checkmark" class="icon" />
+                            <div>
+                                <h3>ExpressJS</h3>
+                                <p>Basic </p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./images/5290982.png" alt="checkmark" class="icon" />
+                            <div>
+                                <h3>Git</h3>
+                                <p>Experienced </p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./images/5290982.png" alt="checkmark" class="icon" />
+                            <div>
+                                <h3>MySQL</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./images/5290982.png" alt="checkmark" class="icon" />
+                            <div>
+                                <h3>JAVA</h3>
+                                <p>Experienced </p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./images/png-transparent-arrow-double-right-arrows-icon.png" alt="arrow-icon" class="icon"
+            id="arrow-icon" onclick="location.href='#projects' " />
+    </section>
+    <!--Projects Section-->
+    <section id="projects">
+        <p class="section-text-p1">Browse My Recent</p>
+        <h3 class="title">Projects</h3>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./images/Rectangle 55.png" alt="projects1" class="project-img" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">Project One</h2>
+                    <p>Developed an engaging gaming site featuring multiple sections like video highlights, game
+                        categories,
+                        and career opportunities.</p>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://github.com/MdMehediHasan22/exciting-gamer-site' ">
+                            Github
+                        </button>
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://snazzy-youtiao-2f7abc.netlify.app/' ">
+                            Live Demo
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./images/model.png" alt="projects1" class="project-img" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">Project Two</h2>
+                    <p>A professional website for an architectural firm, highlighting projects, teams, and
+                        services.Responsive design with an optimal
+                        user experience.</p>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://github.com/MdMehediHasan22/gen-z-architects' ">
+                            Github
+                        </button>
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://merry-pastelito-d94b59.netlify.app/' ">
+                            Live Demo
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./images/pngwing 5.png" alt="projects1" class="project-img" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">Project Three</h2>
+                    <p>Fruit Burst is a vibrant website showcasing fruits,built with DaisyUI and Tailwind CSS.The site
+                        focuses on simplicity and mobile optimization.</p>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://github.com/MdMehediHasan22/delcious-fruits' ">
+                            Github
+                        </button>
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://mdmehedihasan22.github.io/delcious-fruits/' ">
+                            Live Demo
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./images/latest2.png" alt="projects1" class="project-img" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">Project Four</h2>
+                    <p> A fully responsive, live website for a motorcycle dealership, built with DaisyUI.
+                        It features a product gallery, services section, and contact form, offering an optimized user
+                        experience across all devices. <br>Technologies: HTML, CSS, Tailwind</p>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://github.com/MdMehediHasan22/new-biker-zone-daisy' ">
+                            Github
+                        </button>
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://mdmehedihasan22.github.io/new-biker-zone-daisy/' ">
+                            Live Demo
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+
+                </div>
+                <h2 class="experience-sub-title project-title">Product Inventory Project Base Software</h2>
+                <p>This project demonstrates my proficiency in Java, Swing, and MySQL by creating a robust software
+                    solution for managing product inventory. Additionally, all modifications are reflected in the MySQL
+                    database, showcasing my ability to integrate front-end applications with back-end databases
+                    effectively. <br>
+                    <b>Technologies:</b>NetBeans,JAVA Swing,MySQL
+                </p>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn"
+                        onclick="location.href='https://github.com/MdMehediHasan22/JavaApplication1' ">
+                        Github
+                    </button>
+                </div>
+            </div>
+
+
+        </div>
+
+        <img src="./images/png-transparent-arrow-double-right-arrows-icon.png" alt="arrow-icon" class="icon"
+            id="arrow-icon" onclick="location.href='#contact' " />
+    </section>
+    <!--Contact Section-->
+    <section id="contact">
+        <p class="section-text-p1">Get In Touch</p>
+        <h1 class="title"> Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./images/6244438.png" alt="email-icon" class="icon contact-icon" />
+                <p><a href="mailto:mdmehedi3799@gmail.com">mdmehedi3799@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="./images/free-linkedin-icon-2166-thumb.png" alt="LinkedIn-icon" class="icon contact-icon" />
+                <p><a href="https://www.linkedin.com/in/md-mehedi-hasan-m-370161349/">LinkedIn</a></p>
+            </div>
+        </div>
+
+    </section>
+    <!--Footer Section-->
+    <footer>
+        <nav>
+            <div class="nav-link-container">
+                <ul class="nav-links">
+                    <li> <a href="#about">About </a></li>
+                    <li><a href="#experience"> Experience </a></li>
+                    <li> <a href="#projects">Projects </a></li>
+                    <li> <a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2024 Md Mehedi Hasan | All Rights Reserved </p>
+    </footer>
+
+    <script src="operator.js"></script>
+</body>
+
+</html>
